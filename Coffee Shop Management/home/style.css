@@ -1,0 +1,60 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url(../img/cover3.jpg);
+    background-size: cover;
+    padding: 20%;
+    padding-bottom: 20%;
+    color: white;
+}
+
+.about{
+    padding: 150px;
+}
+
+.btn{
+    margin-top: 20px;
+}
+.logo{
+    text-decoration: none;
+    color : white;
+    font-size: 30px;
+}
+
+.container a:hover{
+    color: white;
+}
+
+.nav-link:hover{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+}
+
+.nav-link{
+    color: white !important;
+} 
+
+.carousel-inner{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.carousel-inner img{    
+    width: 500px;
+    border-radius: 20px;
+}
+
+.service{
+    height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+
+}
